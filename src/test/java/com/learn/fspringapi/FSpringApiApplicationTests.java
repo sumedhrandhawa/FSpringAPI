@@ -15,18 +15,18 @@ import java.util.Optional;
 
 @SpringBootTest
 class FSpringApiApplicationTests {
-	@Autowired
-	private CategoryRepository categoryRepository;
-
-	@Autowired
-	private ProductRepository productRepository;
+//	@Autowired
+//	private CategoryRepository categoryRepository;
+//
+//	@Autowired
+//	private ProductRepository productRepository;
 	@Test
 	void contextLoads() {
 	}
 
-	@Test
-	@Transactional
-	public void testTC() {
+//	@Test
+//	@Transactional
+//	public void testTC() {
 //		Optional<Category> optionalCategory = categoryRepository.findById(1L);
 //		Category category = optionalCategory.get();
 //		System.out.println("Fetching products related to the above category");
@@ -41,5 +41,5 @@ class FSpringApiApplicationTests {
 //		System.out.println(product.getTitle());
 //		System.out.println(product.getDescription());
 //		System.out.println("DEBUG");
-	}
+//	}
 }
